@@ -3,7 +3,7 @@
 import degit from "degit";
 import { execSync } from "child_process";
 
-const repo = "user/repo"; // Замените на свой репозиторий с шаблоном
+const repo = "https://github.com/iskan-iskra/react-template-iskan-iskra"; // Замените на свой репозиторий с шаблоном
 const emitter = degit(repo, {
   cache: false,
   force: true,
